@@ -1,82 +1,42 @@
-<p align="center">
-  <img width="110" height="auto" src="./images/logo.png" alt="logo">
-</p>
+# 🌦️ Weather Application
 
-<h1 align="center">WeatherApp</h1>
+## 📌 Description
 
-<p align="center">:sun_behind_small_cloud: An awesome Android weather forecast app, which uses OpenWeatherMap API. :open_umbrella::cloud_with_lightning_and_rain: ( Java, Android Studio ) </p>
+This is a simple Android application that shows real-time weather information for any city using a weather API. The app provides details like temperature, humidity, and weather conditions in a user-friendly interface.
 
-<p align="center">
-  <strong>
-    <a href="#about">About</a> • 
-    <a href="#features">Features</a> • 
-    <a href="#built-with">Built with</a> • 
-    <a href="#usage">Usage</a> • 
-    <a href="#contributing">Contributing</a> • 
-    <a href="#support--feedback">Support & Feedback</a> • 
-    <a href="#license">License</a>  
-  </strong>
-</p>
+---
 
-<p align="center">
-  <img src="./images/home.jpg" height="auto" width="30%"  alt="home"/> &emsp;
-  <img src="./images/search.jpg" height="auto" width="30%"  alt="search"/> &emsp;
-</p> 
+## ⚙️ Requirements
 
-<p align="center"> 
-  <img src="./app/src/main/res/drawable/w01d.png" height="auto" width="8%" alt="w01d"/>
-  <img src="./app/src/main/res/drawable/w13d.png" height="auto" width="8%" alt="w13d"/> 
-  <img src="./app/src/main/res/drawable/w04d.png" height="auto" width="8%" alt="w04d"/> 
-  <img src="./app/src/main/res/drawable/w09d.png" height="auto" width="8%" alt="w09d"/> 
-  <img src="./app/src/main/res/drawable/w10d.png" height="auto" width="8%" alt="w10d"/> 
-  <img src="./app/src/main/res/drawable/w11d.png" height="auto" width="8%" alt="w11d"/> 
-  <img src="./app/src/main/res/drawable/w02d.png" height="auto" width="8%" alt="w02d"/> 
-  <img src="./app/src/main/res/drawable/w03d.png" height="auto" width="8%" alt="w03d"/> 
-</p> 
+* Android Studio (latest version recommended)
+* Android SDK (Minimum SDK: 21 or above)
+* Gradle JDK: jbr17 (JetBrains Runtime 17)
+* Internet connection (for fetching weather data)
 
-## About
+---
 
-WeatherApp is a simple weather forecast app, which uses [OpenWeatherMap](https://openweathermap.org/) API to fetch 5 day / 3 hour forecast data based on given location. This application, developed in the Android Studio environment, processes the temperature, wind, pressure, weather and humidity data fetched in JSON format and displays them to the user.
+## 🚀 How to Run the App
 
-### Features
-Some of the features the project includes:
+1. Clone the repository:
+   git clone https://github.com/kiranpatil1808/weather-application.git
 
-- Weather info by current location
-- 5 Day Forecast
-- Current humidity, wind and real feel info
-- Search weather by location
-- Secure API key
+2. Open the project in Android Studio
 
-### Built with
+3. Ensure Gradle JDK is set to **jbr17**
+   (File → Settings → Build, Execution, Deployment → Gradle)
 
-- [Android Studio](https://developer.android.com/studio) - Android Studio is the official Integrated Development Environment (IDE) for Android app development, based on IntelliJ IDEA.
-- [OpenWeatherMap](https://openweathermap.org/) - OpenWeatherMap is an online service that provides global weather data via API, including current weather data, forecasts, nowcasts and historical weather data for any geographical location.
+4. Sync Gradle files
 
-## Usage
+5. Build and run the app on an emulator or physical device
 
-In order to use the project, you first need your own OpenWeatherMap API key:
+---
 
-1. Sign up on [OpenWeatherMap](https://openweathermap.org/) to get your api keys.
-2. Once you've registered go to your Account > My API keys. The 'Default key' is what you'll need.
-3. Set the `ApiKey` property in [`gradle.properties`](./gradle.properties) file to your api key.
-```properties
-ApiKey = YOUR_OPENWEATHERMAP_API_KEY
-```
+## 🔑 Note
 
-## Contributing
-Want to contribute? Great!
-To fix a bug or enhance an existing module, follow these steps:
+You may need to add your own API key from a weather service (e.g., OpenWeather) in the code.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/enhanced-feature`)
-3. Commit your Changes (`git commit -m 'Add some enhanced-feature'`)
-4. Push to the Branch (`git push origin feature/enhanced-feature`)
-5. Open a Pull Request
+---
 
-## Support & Feedback
-If you are having technical issues or want to raise a bug/issue with the app, the preferred way is through [GitHub issues](https://github.com/enessfk/WeatherApp/issues). In order to contact with me for any other request please send an email to: **eneskeskinfk@gmail.com**
+## 📄 License
 
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
+This project is licensed under the MIT License.
