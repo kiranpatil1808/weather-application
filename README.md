@@ -37,6 +37,8 @@ You may need to add your own API key from a weather service (e.g., OpenWeather) 
 
 ---
 
-## 📄 License
+👥 Team Members
+Kiran Patil 
+Rohit Donagare
+Sahil Ahire
 
-This project is licensed under the MIT License.
