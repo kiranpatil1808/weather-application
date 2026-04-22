@@ -1,12 +1,12 @@
-# 🌦️ Weather Application
+# Weather Application
 
-## 📌 Description
+## Description
 
 This is a simple Android application that shows real-time weather information for any city using a weather API. The app provides details like temperature, humidity, and weather conditions in a user-friendly interface.
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 * Android Studio (latest version recommended)
 * Android SDK (Minimum SDK: 21 or above)
@@ -15,7 +15,7 @@ This is a simple Android application that shows real-time weather information fo
 
 ---
 
-## 🚀 How to Run the App
+## How to Run the App
 
 1. Clone the repository:
    git clone https://github.com/kiranpatil1808/weather-application.git
@@ -31,7 +31,7 @@ This is a simple Android application that shows real-time weather information fo
 
 ---
 
-## 🔑 Note
+## Note
 
 You may need to add your own API key from a weather service (e.g., OpenWeather) in the code.
 
