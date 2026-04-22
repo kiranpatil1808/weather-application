@@ -37,7 +37,7 @@ You may need to add your own API key from a weather service (e.g., OpenWeather) 
 
 ---
 
-👥 Team Members   
+## Team Members   
 
 1) Kiran Patil 
 2) Rohit Dongare
